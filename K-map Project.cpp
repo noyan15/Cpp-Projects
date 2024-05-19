@@ -39,9 +39,21 @@ int main()
 	int minterms[size];
 	int *minterm;
 	minterm=minterms;
+		if(choice == 1)
+	{
+		cout<<"\nEnter values from 0 to 7\n";
+	}
+	else if(choice == 2)
+	{
+		cout<<"\nEnter values from 0 to 15\n";
+	}
+	else if(choice == 3)
+	{
+		cout<<"\nEnter values from 0 to 31\n";
+	}
 	for(int i=0;i<size;i++)
 	{
-		cout<<"Enter the value of "<<i+1<<" minterm: ";
+		cout<<"Enter "<<i+1<<" minterm: ";
 		cin>>minterms[i];
 	}
 	int expr = 32;
