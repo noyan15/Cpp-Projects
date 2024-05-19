@@ -31,7 +31,7 @@ int main()
 		
 	
 	int choice;
-	cout<<"Enter 1 for 3 variables K-map, 2 for 4 variables K-map, 3 for 5 variables K-map: ";
+	cout<<"You have to Enter 1 to print a K-map based on 3 variables, 2 for 4 variables, 3 for 5 variables and it will also give the expression based on minterms: ";
 	cin>>choice;
 	int size;
 	cout<<"Enter the number of minterms you want to enter: ";
